@@ -1,14 +1,13 @@
-
-
-
-    
+{                            
     margin: 0;
     padding: 0;
+}
 
-
+body{  
+    font-family: 'Poppins', sans-serif;
+}
 
 .cabecalho {
-
     background-color: #FFD058;
     color: white;
     display: flex;
@@ -33,6 +32,11 @@
     background-image: linear-gradient(#FFD058,#CCC585);
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
-.escola-div-conteudo
+.escola-div-conteudo{
+    padding: 24px 0;
+}
